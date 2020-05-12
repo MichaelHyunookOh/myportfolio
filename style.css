@@ -1,0 +1,63 @@
+/*Ubuntu font*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/*background color and font change*/
+body {
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #D4E7F6
+
+}
+/*Set font size and center for h1 and h2*/
+header h1 {
+	font-size: 50px;
+	text-align: center;
+}
+header h2 {
+	font-size: 28px;
+	text-align: center;
+}
+
+.wrapper {
+	width: 580px;
+	margin: auto;
+}
+header {
+	height: 140px;
+}
+img {
+	width: 100%;
+}
+/* logo */
+.Shyclo {
+	width: 60%;
+}
+/* project screenshot */
+.screenshot {
+	width: 60%;
+}
+/*gaps*/
+.gap-sm {
+    height: 50px;
+    width: auto;
+}
+.gap-md {
+    height: 100px;
+    width: auto;
+}
+.gap-lg {
+    height: 200px;
+    width: auto;
+}
+
+.gap-footer {
+    height: 10px;
+    width: auto;
+}
+/*footer section*/
+footer {
+	height: 84px;
+	background-color: #332833;
+	}
+footer p {
+	text-align: center;
+	color: white;
+}
