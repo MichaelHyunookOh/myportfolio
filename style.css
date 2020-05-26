@@ -17,41 +17,30 @@ header h2 {
 }
 
 .wrapper {
-	width: 580px;
+	width: 100%;
 	margin: auto;
 }
 header {
 	height: 140px;
 }
+
+.group {
+	display: flex;
+	flex-direction: column;
+}
+
+.item {
+	flex: 1;
+	margin: 10px;
+}
+
 img {
 	width: 100%;
 }
-/* logo */
-.Shyclo {
-	width: 60%;
-}
-/* project screenshot */
-.screenshot {
-	width: 60%;
-}
-/*gaps*/
-.gap-sm {
-    height: 50px;
-    width: auto;
-}
-.gap-md {
-    height: 100px;
-    width: auto;
-}
-.gap-lg {
-    height: 200px;
-    width: auto;
-}
 
-.gap-footer {
-    height: 10px;
-    width: auto;
-}
+
+
+
 /*footer section*/
 footer {
 	height: 84px;
@@ -60,4 +49,15 @@ footer {
 footer p {
 	text-align: center;
 	color: white;
+}
+
+@media all and (min-width: 800px) {
+	.wrapper {
+		width: 80%;
+		margin: auto;
+	}
+
+	.group {
+		flex-direction: row;
+	}
 }
