@@ -32,11 +32,30 @@ header {
 .item {
 	flex: 1;
 	margin: 10px;
+	align-items: flex-start;
 }
 
+
+.group form textarea{
+	width: 100%;
+}
+
+.group form label {
+	display: block;
+	margin-bottom: 5px
+}
 img {
 	width: 100%;
 }
+
+.profile{
+	margin-top: 25px;
+}
+.map {
+	display: flex;
+}
+
+
 
 
 
@@ -44,6 +63,7 @@ img {
 /*footer section*/
 footer {
 	height: 84px;
+	padding-top: 20px;
 	background-color: #332833;
 	}
 footer p {
@@ -57,7 +77,6 @@ footer p {
 		margin: auto;
 	}
 
-	.group {
-		flex-direction: row;
+	.map {
+		display: flex
 	}
-}
