@@ -11,9 +11,39 @@ header h1 {
 	font-size: 50px;
 	text-align: center;
 }
-header h2 {
+header section {
 	font-size: 28px;
 	text-align: center;
+}
+
+header nav {
+	display: flex;
+	justify-content: center;
+}
+
+header nav ul {
+	display: flex;
+	flex-direction: row;
+}
+
+header nav ul li {
+	list-style: none;
+	margin-right: 5px;
+}
+
+header nav ul li a {
+	color:gray;
+	text-decoration: none;
+	padding-right: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: #344A6D
+}
+
+header nav ul li a:hover {
+	color: #303535
 }
 
 .wrapper {
@@ -32,7 +62,6 @@ header {
 .item {
 	flex: 1;
 	margin: 10px;
-	align-items: flex-start;
 }
 
 
@@ -45,7 +74,16 @@ header {
 	margin-bottom: 5px
 }
 img {
-	width: 100%;
+	width: 100%;	
+}
+
+#portfolio {
+	padding-bottom: 50px;
+}
+
+#portfolioTitle {
+	display: flex;
+	justify-content: center;
 }
 
 .profile{
@@ -54,6 +92,7 @@ img {
 .map {
 	display: flex;
 }
+
 
 
 
