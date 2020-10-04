@@ -3,6 +3,7 @@
 <head>
 	<title>Michael Oh: Software Developer</title>
 	<link rel="icon" type="image/png" href="/favicon.png"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -26,12 +27,12 @@
 			<div class="group">
 				<div class="item">
 					<h1>Michael Oh</h1>
-					<h3>Software Developer</h3>
+					<h3>Software Engineer</h3>
 		</div>
 <!-- Introduction section -->
 		<div class="item">
 			<section id="home"></section>
-			
+			<i class="fab fa-linkedin"></i>
 			</div>
 			</div>
 		</div>
@@ -42,13 +43,12 @@
 		<div class="wrapper">
 			<div class="group">
 			<div class="item">
-			<section id="about">About Me</section>
-			<p>I am a passionate web developer who is driven by my curiosity and continually seeks to grow as a programmer. I love solving problems not only individually, but also in a team setting where I can collaborate with other talented programmers. I am someone who enjoys working with different personalities, and I believe that working with others grows us as programmers and people. Therefore, I am open to providing any type of service for my clients. The following is a list of programming languages that I can work with:</p>
-			<ol>
-				<li>Javascript</li>
-				<li>HTML5</li>
-				<li>CSS</li>
-			</ol>
+			<section class="section-title" id="about">About Me</section>
+			<div class="profile">
+			<img class="profile-pic round" src="images/profile.jpeg">
+		</div>
+			<p>I am a passionate web developer who is driven by my curiosity and continually seeks to grow as a programmer. I love solving problems not only individually, but also in a team setting where I can collaborate with other talented programmers. I am someone who enjoys working with different personalities, and I believe that working with others grows us as programmers and people. Therefore, I am open to providing any type of service for my clients. </p>
+			
 			<p>Outside of programming, I am still a very curious person. I love learning about things that interest me. I care about people and want to be someone who can make a difference in many lives. I love basketball and the Los Angeles Clippers. Hopefully we can win a championship some day!
 				</p>
 			</div>
@@ -61,7 +61,7 @@
 		<div class="wrapper">
 			<div class="group">
 			<div class="item">
-			<section id="portfolio">Projects
+			<section class="section-title" id="portfolio">Projects
 			</div>
 			<div class="item" id="portfolioTitle">
 				<p>Saneful</p>
@@ -206,16 +206,19 @@
 	<div class="wrapper">
 		<div class="group">
 			<div class="item">
-			<section id="contact">Contact Me</section>
+			<section class="section-title" id="contact">Contact Me</section>
 			<p>Please see below my contact information! I am currently available for full time hire. If you are interesting in working with me and have any more questions I am available 24/7 at my email below. Thank You!<br><br>
-			Email: <a href="mailto:michaelhyunookoh@gmail.com">Click to Email!</a><br>
-			LinkedIn: <a href="https://www.linkedin.com/in/michaehyunookoh/" target="_blank">My LinkedIn</a><br>
-      		GitHub: <a href="https://github.com/MichaelHyunookOh" target="_blank">My GitHub</a>
-      		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26523.681804028536!2d-118.08045701993346!3d33.8004345571246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd2ef11f500b25%3A0xd485614680a1eafb!2sLos%20Alamitos%2C%20CA!5e0!3m2!1sen!2sus!4v1589239958164!5m2!1sen!2sus" width="300" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="map"></iframe>
+			<section class="social-media-icons">
+			<a href="mailto:michaelhyunookoh@gmail.com" class="fa fa-envelope-o envelope"></a><br>
+			<a href="https://www.linkedin.com/in/michaehyunookoh/" class="fa fa-linkedin-square linkedin" target="_blank"></a><br>
+			 <a href="https://github.com/MichaelHyunookOh" class="fa fa-github-square github" target="_blank"></a>
+			</section>
+      		<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26523.681804028536!2d-118.08045701993346!3d33.8004345571246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd2ef11f500b25%3A0xd485614680a1eafb!2sLos%20Alamitos%2C%20CA!5e0!3m2!1sen!2sus!4v1589239958164!5m2!1sen!2sus" width="300" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="map"></iframe> -->
 				</p>
 			</div>
 				<div class="item">
 				<form
+				class="email-form"
 				action="https://formspree.io/meqrardr"
 				method="POST">
 					
@@ -242,11 +245,7 @@
 		
 	</main>
 <!-- Footer section -->
-	<footer>
-        <div class="wrapper">
-			
-			</div>
-    </footer>
+	
 <script src="script.js"></script>
 
 
