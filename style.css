@@ -1,5 +1,6 @@
 /*Ubuntu font*/
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
 /*background color and font change*/
 body {
 	font-family: 'Ubuntu', sans-serif;
@@ -49,6 +50,25 @@ h3 {
 
 }
 
+.resume {
+	display: flex;
+	justify-content: center;
+	background-color: #a9abaa;
+	border-radius: 8px;
+    color: white;
+    padding: 1em 1.5em;
+	width: 100px;
+	text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.resume-btn {
+	display: flex;
+	justify-content: center;
+	padding-top: 5em;
+}
+
 a {
 	text-decoration: none;
 	color: #344A6D
@@ -76,7 +96,7 @@ header {
   -o-background-size: cover;
   background-size: cover;
   margin: -8px 0 -8px -8px;
-  padding-bottom: 25em;
+  padding-bottom: 11em;
 }
 
 .profile-pic {
@@ -91,11 +111,13 @@ header {
 	display: flex;
 	justify-content: center;
 	font-size: 4em;
+	border-bottom: gray;
 }
 
 #portfolioTitle {
 	display: flex;
 	font-size: 3em;
+	font-family: 'Sansita Swashed', cursive;
 }
 
 .project-title {
@@ -115,6 +137,10 @@ header {
 	display: flex;
 	justify-content: center;
 	font-size: 4em;
+}
+
+#contact {
+	padding: 20px;
 }
 
 .linkedin {
