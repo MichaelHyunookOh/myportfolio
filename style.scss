@@ -44,6 +44,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
+  z-index: -1;
 }
 
 .page-bg {
@@ -118,6 +119,10 @@ body {
   to {
     transform: translateY($spacing * -1);
   }
+}
+
+.page-wrapper {
+  z-index: 2;
 }
 
 header section {
